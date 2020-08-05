@@ -1,5 +1,12 @@
-# RMT
+# Random Matrix Theory (RMT)
 
-This is a collection of the Matlab files associated with the book "Introduction to Random Matrices" by Giacomo Livan, Marcel Novaes, and Pierpaolo Vivo.
-All Matlab files have the same names used in the book, so navigation should be easy. The only exceptions are "histnorm.m" (which makes your life easy when trying to plot normalized histograms), and "double_factorial.m", which is called by the code "Gaussian_finite_density_check.m".
-All codes have been written in and tested with Matlab version R2015b
+This is a collection of the R files associated with the book 
+"Introduction to Random Matrices" 
+by Giacomo Livan, Marcel Novaes, and Pierpaolo Vivo.
+
+The R files are rewritten from the original Matlab files.
+
+My main interest is to understand the impact of random matrix to
+the covariance matrix in the quantitative finance setting. 
+This is described in the Wilshart ensembles.
+Please contact me if you have similar interest.
