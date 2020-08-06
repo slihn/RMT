@@ -5,15 +5,15 @@
 # matrix size N, and to choose the number of matrices to be diagonalized.
 
 # Reads the value of the Dyson beta index from the Command Window
-prompt = "\n Choose value of beta (1 for GOE, 2 for GUE, 4 for GSE): "
+prompt = "Choose value of beta (1 for GOE, 2 for GUE, 4 for GSE): "
 beta = 1 # strtoi(readline(prompt))
 
 # Reads the matrix size from the Command Window
-prompt = "\n Choose matrix size: "
+prompt = "Choose matrix size: "
 N = 8 # strtoi(readline(prompt))
 
 # Reads the number of matrices to be diagonalized from the Command Window
-prompt = "\n Choose number of matrices to be diagonalized: "
+prompt = "Choose number of matrices to be diagonalized: "
 Nmatr = 1000 # strtoi(readline(prompt))
 
 # x is an empty vector that will be used to collect all eigenvalues
@@ -61,7 +61,7 @@ if (beta == 1) { # Gaussian Orthogonal Ensemble
 # ------------------------------------------   
 par(mfrow=c(1,1));
 # 
-hist(x, 50,freq=FALSE, 
+hist(x, 50, freq=FALSE, 
      main="Normalized eigenvalue histogram")
 abline(v=c(1,-1)*bnd, col="red", lty=2)
 

@@ -7,7 +7,7 @@
 surmise <- function(s) s*exp(-s^2/4)/2
 
 # Reads the number of matrices to be diagonalized from the Command Window
-prompt = "\n Choose number of matrices to be diagonalized: "
+prompt = "Choose number of matrices to be diagonalized: "
 Nmatr = 50000 # strtoi(readline(prompt))
 
 # x is an empty vector that will be used to collect all spacings
